@@ -76,7 +76,7 @@ Virtualbox 本身只支持vdi硬盘文件格式的扩容，对vmdk 格式的却�
 
 ``` 
 vgdisplay  
-gextend centos /dev/sda3 
+vgextend centos /dev/sda3 
 ```
 
 扩展到相应逻辑卷，这里以/dev/mapper/centos-root为例
